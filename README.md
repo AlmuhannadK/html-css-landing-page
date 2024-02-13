@@ -48,6 +48,8 @@ Happy coding!
 
 Peer Review
 
+### (OPTIONAL)
+
 ## Sub-assignment 3: Sass Integration
 
 ### Level 1: Basic Requirements

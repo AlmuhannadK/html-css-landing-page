@@ -41,7 +41,7 @@
     <main>
       <!-- product showcase section -->
       <section>
-        <h3 class="section-title">Products</h3>
+        <h3 class="section-title" id="product-title">Products</h3>
         <div class="section-layout">
           <div>
             <img
@@ -54,7 +54,9 @@
               An exclusive edition 250ml coffee mug that comes with a free gift
               on order.
             </p>
-            <button>Buy</button>
+            <button id="btn-buy" aria-labelledby="btn-buy product-title">
+              Buy
+            </button>
           </div>
           <div>
             <img
@@ -121,7 +123,7 @@
       </section>
       <!-- newsletter section -->
       <section>
-        <h4 class="section-title">Newsletter</h4>
+        <h4 class="section-title" id="newsletter">Newsletter</h4>
         <div class="section-layout">
           <p>
             Want to know more about our frequent offers? Subscribe to our weekly
@@ -136,7 +138,13 @@
                 name="email"
                 placeholder="email@email.com"
               />
-              <button type="submit">Subscribe</button>
+              <button
+                type="button"
+                id="btn-subscribe"
+                aria-labelledby="btn-subscribe newsletter"
+              >
+                Subscribe
+              </button>
             </div>
           </form>
         </div>
@@ -145,25 +153,52 @@
   </body>
   <!-- footer section -->
   <footer>
-    <div>
-      <h5>Important Pages</h5>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5>Contact Information</h5>
-      <p>Email: support@ecommerce.com</p>
-      <p>Phone: +990 555 444</p>
-    </div>
-    <div>
-      <h5>Follow Us</h5>
-      <ul>
-        <li><a href="#">X</a></li>
-        <li><a href="#">Instagram</a></li>
-      </ul>
+    <div class="footer-layout">
+      <div>
+        <h5>Important Pages</h5>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact Information</h5>
+        <p>Email: support@ecommerce.com</p>
+        <p>Phone: +990 555 444</p>
+      </div>
+      <div>
+        <h5>Follow Us</h5>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/twittericon.png"
+                alt="twitter"
+                width="30px"
+              />X</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/instagramicon.png"
+                alt="instagram"
+                width="30px"
+              />Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/facebookicon.png"
+                alt="facebook"
+                width="30px"
+              />Facebook</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <p>&copy; 2024 ecommerce. All rights reserved.</p>
   </footer>

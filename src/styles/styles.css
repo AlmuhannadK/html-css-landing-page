@@ -1,4 +1,4 @@
-.navigation {
+/* .navigation {
   display: inline-block;
 }
 
@@ -9,4 +9,19 @@
 .product-card {
   display: inline-block;
   width: 30%;
+} */
+
+.section-title {
+  font-size: x-large;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-layout {
+  display: flex;
+  justify-content: space-evenly;
 }

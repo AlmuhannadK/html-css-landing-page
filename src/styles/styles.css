@@ -15,8 +15,6 @@ nav ul li {
 .page-header {
   display: flex;
   justify-content: space-between;
-  justify-items: center;
-  position: fixed;
   background-color: beige;
 }
 

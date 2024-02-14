@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/style.css" />
-    <title>SCSS Project</title>
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <title>Ecommerce Project</title>
   </head>
   <body>
     <header class="header">
@@ -13,7 +13,7 @@
         alt="ecommerce logo"
         width="200px"
       />
-      <nav>
+      <nav class="navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="index.html">About Us</a></li>
@@ -43,7 +43,7 @@
       <section>
         <h3>Products</h3>
         <div>
-          <div>
+          <div class="product-card">
             <img
               src="/src/images/ecommerce logo.png"
               alt="product 1 image"
@@ -56,7 +56,7 @@
             </p>
             <button>Buy</button>
           </div>
-          <div>
+          <div class="product-card">
             <img
               src="/src/images/ecommerce logo.png"
               alt="product 2 image"
@@ -66,7 +66,7 @@
             <p>A large mouse pad that is suitable for wide computer desks.</p>
             <button>Buy</button>
           </div>
-          <div>
+          <div class="product-card">
             <img
               src="/src/images/ecommerce logo.png"
               alt="product 3 image"
@@ -127,14 +127,16 @@
           newsletter!
         </p>
         <form>
-          <label for="email">Enter your email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="email@email.com"
-          />
-          <button type="submit">Subscribe</button>
+          <div>
+            <label for="email">Enter your email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
         </form>
       </section>
     </main>

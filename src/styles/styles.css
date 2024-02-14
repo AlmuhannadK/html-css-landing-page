@@ -1,0 +1,12 @@
+.navigation {
+  display: inline-block;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.product-card {
+  display: inline-block;
+  width: 30%;
+}

@@ -6,25 +6,28 @@
     <link rel="stylesheet" href="/src/styles/styles.css" />
     <title>Ecommerce Project</title>
   </head>
+
   <body>
-    <header class="header">
-      <img
-        src="/src/images/ecommerce logo.png"
-        alt="ecommerce logo"
-        width="150px"
-      />
-      <h1>Welcome to my Ecommerce Project</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">About Us</a></li>
-          <li><a href="index.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="page-header">
+      <header>
+        <img
+          src="/src/images/ecommerce logo.png"
+          alt="ecommerce logo"
+          width="150px"
+        />
+        <h1>Welcome to my Ecommerce Project</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
     <!-- hero section -->
-    <section>
+    <section class="hero-section">
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xoppgeMvWMBHehDtgZ5hXBEoBGFOR5SxDiyYBCH3F6l6FPTkjavjOtt1fsSCaLN7wDU&usqp=CAU"
         alt="hero section image"
@@ -41,7 +44,7 @@
     <main>
       <!-- product showcase section -->
       <section>
-        <h3 class="section-title" id="product-title">Products</h3>
+        <h3 class="section-title">Products</h3>
         <div class="section-layout">
           <div>
             <img
@@ -49,7 +52,7 @@
               alt="product 1 image"
               width="100px"
             />
-            <h4>Coffee Mug</h4>
+            <h4 id="product-title">Coffee Mug</h4>
             <p>
               An exclusive edition 250ml coffee mug that comes with a free gift
               on order.
@@ -64,9 +67,11 @@
               alt="product 2 image"
               width="100px"
             />
-            <h4>Mouse Pad</h4>
+            <h4 id="product-title">Mouse Pad</h4>
             <p>A large mouse pad that is suitable for wide computer desks.</p>
-            <button>Buy</button>
+            <button id="btn-buy" aria-labelledby="btn-buy product-title">
+              Buy
+            </button>
           </div>
           <div>
             <img
@@ -74,9 +79,11 @@
               alt="product 3 image"
               width="100px"
             />
-            <h4>Travel Bag</h4>
+            <h4 id="product-title">Travel Bag</h4>
             <p>Heavy duty travel bag to accompny you on your travels.</p>
-            <button>Buy</button>
+            <button id="btn-buy" aria-labelledby="btn-buy product-title">
+              Buy
+            </button>
           </div>
         </div>
       </section>
@@ -102,7 +109,7 @@
             />
             <h4>George Hotz</h4>
             <p>
-              <em>"The coffee mug I got was exceptional and well made :) "</em>
+              <em>"The coffee mug I got was exceptionally well made"</em>
             </p>
           </div>
           <div>
@@ -176,8 +183,7 @@
                 src="/src/images/twittericon.png"
                 alt="twitter"
                 width="30px"
-              />X</a
-            >
+            /></a>
           </li>
           <li>
             <a href="#"
@@ -185,8 +191,7 @@
                 src="/src/images/instagramicon.png"
                 alt="instagram"
                 width="30px"
-              />Instagram</a
-            >
+            /></a>
           </li>
           <li>
             <a href="#"
@@ -194,12 +199,11 @@
                 src="/src/images/facebookicon.png"
                 alt="facebook"
                 width="30px"
-              />Facebook</a
-            >
+            /></a>
           </li>
         </ul>
       </div>
     </div>
-    <p>&copy; 2024 ecommerce. All rights reserved.</p>
+    <p>&copy;2024 ecommerce shop. All rights reserved.</p>
   </footer>
 </html>

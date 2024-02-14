@@ -1,12 +1,23 @@
+nav ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-section {
+  margin: 10px;
+}
 .section-title {
   font-size: x-large;
   text-align: center;
 }
 
-.header {
+.page-header {
   display: flex;
-  justify-content: space-around;
-  position: sticky;
+  justify-content: space-between;
+  justify-items: center;
+  position: fixed;
+  background-color: beige;
 }
 
 .section-layout {
@@ -19,5 +30,9 @@
 }
 
 footer {
-  background-color: hsl(hue, saturation, lightness);
+  background-color: grey;
+}
+
+footer ul {
+  list-style: none;
 }

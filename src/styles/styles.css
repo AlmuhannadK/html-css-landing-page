@@ -1,6 +1,8 @@
-nav ul li {
+body {
   margin: 0;
   padding: 0;
+}
+nav ul li {
   list-style: none;
 }
 
@@ -15,7 +17,9 @@ nav ul li {
 .page-header {
   display: flex;
   justify-content: space-between;
-  background-color: beige;
+  background-color: azure;
+  position: sticky;
+  top: 0;
 }
 
 .section-layout {
@@ -28,9 +32,21 @@ nav ul li {
 }
 
 footer {
-  background-color: grey;
+  /* background-color: grey;
+  width: 100%;
+  margin: 0; */
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  background-color: lightgray;
 }
 
-footer ul {
+ul {
   list-style: none;
 }

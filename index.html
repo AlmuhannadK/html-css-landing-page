@@ -9,19 +9,15 @@
 
   <body>
     <header class="page-header">
-      <div>
-        <img
-          src="/src/images/ecommerce logo.png"
-          alt="ecommerce logo"
-          width="150px"
-        />
+      <div class="header__logo">
+        <img src="/src/images/ecommerce logo.png" alt="ecommerce logo" />
       </div>
-      <div>
+      <div class="header__title">
         <h1>Welcome to my Ecommerce Project</h1>
       </div>
-      <div>
+      <div class="header__navigation">
         <nav>
-          <ul>
+          <ul class="navigation__item">
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html">About Us</a></li>
             <li><a href="index.html">Contact</a></li>
@@ -31,23 +27,23 @@
     </header>
 
     <!-- hero section -->
-    <section class="hero-section">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xoppgeMvWMBHehDtgZ5hXBEoBGFOR5SxDiyYBCH3F6l6FPTkjavjOtt1fsSCaLN7wDU&usqp=CAU"
-        alt="hero section image"
-      />
-      <h2>We Offer The Best Value for Your Money!</h2>
-      <p>
+    <section class="hero">
+      <img src="/src/images/hero-section-image.jpeg" alt="hero section image" />
+      <h2 class="hero__title">
+        Our best days start with coffee. Browse our collection of exclusive and
+        high quality coffee mugs here!
+      </h2>
+      <p class="hero__description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quod,
         odio velit nulla quibusdam quos, eum ad molestiae et mollitia qui
         commodi deleniti laborum quaerat! Ipsa earum iure aut quisquam?
       </p>
-      <button type="submit">Explore</button>
+      <button type="button">Explore</button>
     </section>
 
     <main>
       <!-- product showcase section -->
-      <section>
+      <section class="product">
         <h3 class="section-title">Products</h3>
         <div class="section-layout">
           <div class="product-card">
@@ -103,31 +99,19 @@
         <h3 class="section-title">Customer Reviews</h3>
         <div class="section-layout">
           <div>
-            <img
-              src="/src/images/pokemon-image.jpeg"
-              alt="customer 1 image"
-              width="80px"
-            />
+            <img src="/src/images/pokemon-image.jpeg" alt="customer 1 image" />
             <h4>John Carmack</h4>
             <p><em>"I loved the order i recieved from this website!"</em></p>
           </div>
           <div>
-            <img
-              src="/src/images/pokemon-image.jpeg"
-              alt="customer 2 image"
-              width="80px"
-            />
+            <img src="/src/images/pokemon-image.jpeg" alt="customer 2 image" />
             <h4>George Hotz</h4>
             <p>
               <em>"The coffee mug I got was exceptionally well made"</em>
             </p>
           </div>
           <div>
-            <img
-              src="/src/images/pokemon-image.jpeg"
-              alt="customer 3 image"
-              width="80px"
-            />
+            <img src="/src/images/pokemon-image.jpeg" alt="customer 3 image" />
             <h4>Linus Trovalds</h4>
             <p>
               <em
@@ -156,7 +140,7 @@
                 placeholder="email@email.com"
               />
               <button
-                type="button"
+                type="submit"
                 id="btn-subscribe"
                 aria-labelledby="btn-subscribe newsletter"
               >
@@ -167,53 +151,53 @@
         </div>
       </section>
     </main>
+    <!-- footer section -->
+    <footer>
+      <div class="footer-layout">
+        <div>
+          <h5>Important Pages</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact Information</h5>
+          <p>Email: support@ecommerce.com</p>
+          <p>Phone: +990 555 444</p>
+        </div>
+        <div>
+          <h5>Follow Us</h5>
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/images/twittericon.png"
+                  alt="twitter"
+                  width="30px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/images/instagramicon.png"
+                  alt="instagram"
+                  width="30px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="/src/images/facebookicon.png"
+                  alt="facebook"
+                  width="30px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy;2024 ecommerce shop. All rights reserved.</p>
+    </footer>
   </body>
-  <!-- footer section -->
-  <footer>
-    <div class="footer-layout">
-      <div>
-        <h5>Important Pages</h5>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Contact Information</h5>
-        <p>Email: support@ecommerce.com</p>
-        <p>Phone: +990 555 444</p>
-      </div>
-      <div>
-        <h5>Follow Us</h5>
-        <ul>
-          <li>
-            <a href="#"
-              ><img
-                src="/src/images/twittericon.png"
-                alt="twitter"
-                width="30px"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="/src/images/instagramicon.png"
-                alt="instagram"
-                width="30px"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="/src/images/facebookicon.png"
-                alt="facebook"
-                width="30px"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <p>&copy;2024 ecommerce shop. All rights reserved.</p>
-  </footer>
 </html>

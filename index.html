@@ -53,82 +53,108 @@
     </section>
 
     <main>
-      <section>
-        <h2>Featured Products</h2>
-      </section>
       <!-- product section -->
       <section class="product-container">
-        <div class="product-container__card">
-          <img src="/src/images/mug1.jpeg" alt="mug image" />
-          <div class="card__content">
-            <h4>Card 1</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
-              eos beatae corrupti nisi libero.
-            </p>
-            <button type="button" class="btn--primary">Buy</button>
-          </div>
+        <div class="product__header">
+          <h3>Featured Products</h3>
         </div>
-        <div class="product-container__card">
-          <img src="/src/images/mug2.jpeg" alt="mug image" />
-          <div class="card__content">
-            <h4>Card 2</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
-              eos beatae corrupti nisi libero.
-            </p>
-            <button type="button" class="btn--primary">Buy</button>
+        <div class="product__layout">
+          <div class="product__card">
+            <img src="/src/images/mug1.jpeg" alt="mug image" />
+            <div class="card__content">
+              <h4>Card 1</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+                eos beatae corrupti nisi libero.
+              </p>
+              <button type="button" class="btn--primary">Buy</button>
+            </div>
           </div>
-        </div>
-        <div class="product-container__card">
-          <img src="/src/images/mug3.jpeg" alt="mug image" />
-          <div class="card__content">
-            <h4>Card 3</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
-              eos beatae corrupti nisi libero.
-            </p>
-            <button type="button" class="btn--primary">Buy</button>
+          <div class="product__card">
+            <img src="/src/images/mug2.jpeg" alt="mug image" />
+            <div class="card__content">
+              <h4>Card 2</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+                eos beatae corrupti nisi libero.
+              </p>
+              <button type="button" class="btn--primary">Buy</button>
+            </div>
+          </div>
+          <div class="product__card">
+            <img src="/src/images/mug3.jpeg" alt="mug image" />
+            <div class="card__content">
+              <h4>Card 3</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+                distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+                eos beatae corrupti nisi libero.
+              </p>
+              <button type="button" class="btn--primary">Buy</button>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- testimonials section -->
-      <section class="testimonial">
-        <h3 class="testimonial__title">Testimonials</h3>
-        <div class="section-layout">
-          <div class="testimonial__card">
-            <img src="/src/images/pokemon-image.jpeg" alt="customer 1 image" />
-            <h4>John Carmack</h4>
-            <p><em>"I loved the order i recieved from this website!"</em></p>
-          </div>
-
-          <div>
-            <img src="/src/images/" alt="customer 2 image" />
-            <h4>George Hotz</h4>
+      <section class="testimonial-container">
+        <div class="testimonial__header">
+          <h3>Testimonials</h3>
+          <p>What our clients say about us.</p>
+        </div>
+        <div class="testimonial__grid">
+          <div class="grid__card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
             <p>
-              <em>"The coffee mug I got was exceptionally well made"</em>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              in aspernatur neque, corrupti nulla quaerat.
             </p>
+            <hr />
+            <img
+              src="https://www.coindesk.com/resizer/8ETZK-IvsN-OXwdnZ0shrNOLjPc=/567x419/filters:quality(80):format(jpg)/cloudfront-us-east-1.images.arcpublishing.com/coindesk/TNV7Y74GSNEARIOW47QWKS43FA.jpg"
+              alt="customer 1 image"
+            />
+            <p class="card__name">John Carmack</p>
           </div>
-          <div>
-            <img src="/src/images/pokemon-image.jpeg" alt="customer 3 image" />
-            <h4>Linus Trovalds</h4>
+          <div class="grid__card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
             <p>
-              <em
-                >"Great after sale customer service. I ended up buying 5 more
-                items!"</em
-              >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              voluptas quos harum porro.
             </p>
+            <hr />
+            <img
+              src="https://www.bafta.org/sites/default/files/styles/news_main/public/externals/1603723c7957c50892c3788e2345890a.jpg?itok=0TVReR7c"
+              alt="customer 2 image"
+            />
+            <p class="card__name">Gabe Newell</p>
+          </div>
+          <div class="grid__card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              quas ea, quod vel praesentium tempore ut voluptas expedita
+              laboriosam.
+            </p>
+            <hr />
+            <img
+              src="https://avatars.githubusercontent.com/u/1024025?v=4"
+              alt="customer 3 image"
+            />
+            <p class="card__name">Linus Trovalds</p>
           </div>
         </div>
+        <div class="testimonial__footer">
+          <h4>No two mugs are alike!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam
+            doloremque vitae reiciendis ratione.
+          </p>
+          <button type="button" class="btn--secondary">Contact Us</button>
+        </div>
       </section>
-
-      <!-- <section class="testimonial">
-        
-      </section> -->
 
       <!-- newsletter section -->
       <section>

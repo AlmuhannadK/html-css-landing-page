@@ -21,10 +21,7 @@
     <header class="page-header">
       <div class="page-header__logo">
         <a href="#" class="logo"
-          ><img
-            src="/src/images/logo-coffee-cup.png"
-            alt="website logo"
-            width="100px"
+          ><img src="/src/images/logo-coffee-cup.png" alt="website logo"
         /></a>
       </div>
       <div class="page-header__title">
@@ -51,19 +48,56 @@
           dolore excepturi in unde repudiandae eos quibusdam labore ut inventore
           dolores!
         </p>
-        <button type="button" class="hero-container__btn">Explore</button>
+        <button type="button" class="btn--secondary">Explore</button>
       </div>
     </section>
-    
 
     <main>
-      <!-- product showcase section -->
-      <section class="product">
-        <div class="section-layout"></div>
+      <section>
+        <h2>Featured Products</h2>
+      </section>
+      <!-- product section -->
+      <section class="product-container">
+        <div class="product-container__card">
+          <img src="/src/images/mug1.jpeg" alt="mug image" />
+          <div class="card__content">
+            <h4>Card 1</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+              eos beatae corrupti nisi libero.
+            </p>
+            <button type="button" class="btn--primary">Buy</button>
+          </div>
+        </div>
+        <div class="product-container__card">
+          <img src="/src/images/mug2.jpeg" alt="mug image" />
+          <div class="card__content">
+            <h4>Card 2</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+              eos beatae corrupti nisi libero.
+            </p>
+            <button type="button" class="btn--primary">Buy</button>
+          </div>
+        </div>
+        <div class="product-container__card">
+          <img src="/src/images/mug3.jpeg" alt="mug image" />
+          <div class="card__content">
+            <h4>Card 3</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
+              distinctio dignissimos quod eaque atque. Adipisci natus incidunt
+              eos beatae corrupti nisi libero.
+            </p>
+            <button type="button" class="btn--primary">Buy</button>
+          </div>
+        </div>
       </section>
 
       <!-- testimonials section -->
-      <!-- <section class="testimonial">
+      <section class="testimonial">
         <h3 class="testimonial__title">Testimonials</h3>
         <div class="section-layout">
           <div class="testimonial__card">
@@ -73,7 +107,7 @@
           </div>
 
           <div>
-            <img src="/src/images/pokemon-image.jpeg" alt="customer 2 image" />
+            <img src="/src/images/" alt="customer 2 image" />
             <h4>George Hotz</h4>
             <p>
               <em>"The coffee mug I got was exceptionally well made"</em>
@@ -90,14 +124,14 @@
             </p>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- <section class="testimonial">
         
       </section> -->
 
       <!-- newsletter section -->
-      <!-- <section>
+      <section>
         <h4 class="section-title" id="newsletter">Newsletter</h4>
         <div class="section-layout">
           <p>
@@ -117,16 +151,17 @@
                 type="submit"
                 id="btn-subscribe"
                 aria-labelledby="btn-subscribe newsletter"
+                class="btn--primary"
               >
                 Subscribe
               </button>
             </div>
           </form>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- footer section -->
-    <!-- <footer>
+    <footer>
       <div class="footer-layout">
         <div>
           <h5>Important Pages</h5>
@@ -172,6 +207,6 @@
         </div>
       </div>
       <p>&copy;2024 ecommerce shop. All rights reserved.</p>
-    </footer> -->
+    </footer>
   </body>
 </html>

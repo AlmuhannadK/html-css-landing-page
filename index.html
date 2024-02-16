@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Ecommerce Project</title>
     <script
       src="https://kit.fontawesome.com/a1b6619471.js"
@@ -14,103 +20,46 @@
   <body>
     <header class="page-header">
       <div class="page-header__logo">
-        <img src="/src/images/ecommerce logo.png" alt="ecommerce logo" />
+        <a href="#" class="logo"
+          ><img
+            src="/src/images/logo-coffee-cup.png"
+            alt="website logo"
+            width="100px"
+        /></a>
       </div>
       <div class="page-header__title">
-        <h1>Welcome to my Ecommerce Project</h1>
+        <h1>Ecommerce Mugs</h1>
       </div>
       <div class="page-header__navigation">
         <nav>
           <ul class="navigation__item">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About Us</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <!-- hero section -->
-    <section class="hero">
-      <div class="hero__text">
-        <h2>
-          Our best days start with coffee. Grab our exclusive mugs right now!
-        </h2>
+    <section class="hero-container">
+      <div class="hero-container__text">
+        <h2>Your Perfect Coffee Experience Starts With The Perfect Mug</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-          voluptatum, consequatur numquam ullam unde sed? Magnam atque nisi
-          recusandae optio, saepe quae ullam voluptatem possimus ipsam
-          reiciendis tempora ut voluptatum? Illum laborum tempore ex ullam, ipsa
-          laudantium ipsum voluptatem perferendis iusto, molestiae nihil fuga
-          ducimus quo itaque exercitationem. Sequi, eligendi.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+          reprehenderit quae quasi quo, quia laudantium totam maxime nemo sint
+          dolore excepturi in unde repudiandae eos quibusdam labore ut inventore
+          dolores!
         </p>
+        <button type="button" class="hero-container__btn">Explore</button>
       </div>
-      <button class="hero__btn" type="button">Explore</button>
     </section>
+    
 
     <main>
       <!-- product showcase section -->
       <section class="product">
-        <h3 class="section-title">Products</h3>
-        <div class="section-layout">
-          <div class="product-card">
-            <img src="/src/images/mug.jpg" alt="product 1 image" />
-            <div class="card-content">
-              <h4 id="product-title">White Mug</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia quidem minus totam. Natus exercitationem officia saepe
-                qui perferendis, consequuntur explicabo reiciendis odit odio,
-                similique repellendus voluptas maxime porro non quia!
-              </p>
-            </div>
-            <button
-              class="btn--primary"
-              id="btn-buy"
-              aria-labelledby="btn-buy product-title"
-            >
-              Buy
-            </button>
-          </div>
-          <div class="product-card">
-            <img src="/src/images/mug2.jpg" alt="product 1 image" />
-            <div class="card-content">
-              <h4 id="product-title">Red Mug</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia quidem minus totam. Natus exercitationem officia saepe
-                qui perferendis, consequuntur explicabo reiciendis odit odio,
-                similique repellendus voluptas maxime porro non quia!
-              </p>
-            </div>
-            <button
-              class="btn--primary"
-              id="btn-buy"
-              aria-labelledby="btn-buy product-title"
-            >
-              Buy
-            </button>
-          </div>
-          <div class="product-card">
-            <img src="/src/images/mug3.jpg" alt="product 1 image" />
-            <div class="card-content">
-              <h4 id="product-title">Black Mug</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia quidem minus totam. Natus exercitationem officia saepe
-                qui perferendis, consequuntur explicabo reiciendis odit odio,
-                similique repellendus voluptas maxime porro non quia!
-              </p>
-            </div>
-            <button
-              class="btn--primary"
-              id="btn-buy"
-              aria-labelledby="btn-buy product-title"
-            >
-              Buy
-            </button>
-          </div>
-        </div>
+        <div class="section-layout"></div>
       </section>
 
       <!-- testimonials section -->
@@ -143,40 +92,12 @@
         </div>
       </section> -->
 
-      <section class="testimonial">
-        <div class="testimonial__inner">
-          <h3>Testimonials</h3>
-          <div class="testimonial__border">
-            <div class="testimonial__row">
-              <div class="testimonial__col">
-                <div class="testimonial__review">
-                  <img
-                    src="/src/images/pokemon-image.jpeg"
-                    alt="customer 1 testimonial"
-                  />
-                  <h4 class="testimonial__review__name">Customer Name</h4>
-                  <div class="review-starts">
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                  </div>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Modi dignissimos odit culpa dolorem doloribus eius harum
-                    placeat aperiam! Consequatur possimus ipsum et aliquid,
-                    dignissimos quam excepturi vel officia quaerat alias.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- <section class="testimonial">
+        
+      </section> -->
 
       <!-- newsletter section -->
-      <section>
+      <!-- <section>
         <h4 class="section-title" id="newsletter">Newsletter</h4>
         <div class="section-layout">
           <p>
@@ -202,10 +123,10 @@
             </div>
           </form>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer section -->
-    <footer>
+    <!-- <footer>
       <div class="footer-layout">
         <div>
           <h5>Important Pages</h5>
@@ -251,6 +172,6 @@
         </div>
       </div>
       <p>&copy;2024 ecommerce shop. All rights reserved.</p>
-    </footer>
+    </footer> -->
   </body>
 </html>

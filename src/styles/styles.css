@@ -12,7 +12,7 @@
   list-style: none;
   text-decoration: none;
 }
-
+/* HEADER */
 .page-header {
   position: fixed;
   background-color: rgb(223, 223, 226);
@@ -52,7 +52,6 @@
 }
 
 /* HERO */
-
 .hero-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
     url(/src/images/hero-image.jpeg);
@@ -80,7 +79,6 @@
 }
 
 /* PRODUCTS */
-
 .product__layout {
   display: flex;
   justify-content: space-evenly;
@@ -123,7 +121,6 @@
 }
 
 /* TESTIMONIALS */
-
 .testimonial-container {
   width: 100%;
   max-width: 1200px;
@@ -263,20 +260,59 @@
   margin: 20px;
 }
 
-/* footer */
-/* footer {
-  background-color: rgb(209, 209, 209);
-  width: 100%;
-  margin: 0;
-  width: 100%;
-  bottom: 0;
-  width: 100vw;
+/* FOOTER */
+.footer-section {
+  background-color: #2d2e33;
 }
-.footer-layout {
+.footer-section p {
+  text-align: center;
+  color: #bdb6b6;
+}
+.footer-container {
   display: flex;
-  justify-content: space-evenly;
-} */
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding: 60px 10%;
+  justify-content: space-between;
+  align-content: center;
+}
 
+.footer__col {
+  width: 25%;
+}
+.footer__col h5 {
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+.footer__col h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: rgb(120, 14, 14);
+  height: 2px;
+  width: 40px;
+}
+.footer__col ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.footer__col ul li a {
+  display: block;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #bdb6b6;
+  transition: 0.4s;
+}
+.footer__col ul li a:hover {
+  color: #ffff;
+  padding-left: 2px;
+}
+
+/* MISC. */
 .btn {
   border: 1px solid rgba(27, 31, 35, 0.15);
   border-radius: 5px;
@@ -317,16 +353,27 @@
   background: #d2942b;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 @media (width < 900px) {
   .testimonial__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+  .footer__col {
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer__col h5::before {
+    all: unset;
   }
 }
 
 @media (width < 600) {
   .testimonial__grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .footer__col {
+    width: 100%;
   }
 }

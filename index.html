@@ -48,7 +48,7 @@
           dolore excepturi in unde repudiandae eos quibusdam labore ut inventore
           dolores!
         </p>
-        <button type="button" class="btn--secondary">Explore</button>
+        <button type="button" class="btn btn--secondary">Explore</button>
       </div>
     </section>
 
@@ -60,7 +60,10 @@
         </div>
         <div class="product__layout">
           <div class="product__card">
-            <img src="/src/images/mug1.jpeg" alt="mug image" />
+            <img
+              src="https://cdn.pixabay.com/photo/2012/02/28/10/19/coffee-18114_960_720.jpg"
+              alt="mug image"
+            />
             <div class="card__content">
               <h4>Card 1</h4>
               <p>
@@ -68,11 +71,14 @@
                 distinctio dignissimos quod eaque atque. Adipisci natus incidunt
                 eos beatae corrupti nisi libero.
               </p>
-              <button type="button" class="btn--primary">Buy</button>
+              <button type="button" class="btn btn--primary">Buy</button>
             </div>
           </div>
           <div class="product__card">
-            <img src="/src/images/mug2.jpeg" alt="mug image" />
+            <img
+              src="https://cdn.pixabay.com/photo/2014/09/24/17/13/mugs-459324_1280.jpg"
+              alt="mug image"
+            />
             <div class="card__content">
               <h4>Card 2</h4>
               <p>
@@ -80,11 +86,14 @@
                 distinctio dignissimos quod eaque atque. Adipisci natus incidunt
                 eos beatae corrupti nisi libero.
               </p>
-              <button type="button" class="btn--primary">Buy</button>
+              <button type="button" class="btn btn--primary">Buy</button>
             </div>
           </div>
           <div class="product__card">
-            <img src="/src/images/mug3.jpeg" alt="mug image" />
+            <img
+              src="https://cdn.pixabay.com/photo/2014/05/06/21/08/coffee-mugs-339219_1280.jpg"
+              alt="mug image"
+            />
             <div class="card__content">
               <h4>Card 3</h4>
               <p>
@@ -92,7 +101,7 @@
                 distinctio dignissimos quod eaque atque. Adipisci natus incidunt
                 eos beatae corrupti nisi libero.
               </p>
-              <button type="button" class="btn--primary">Buy</button>
+              <button type="button" class="btn btn--primary">Buy</button>
             </div>
           </div>
         </div>
@@ -152,12 +161,47 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam
             doloremque vitae reiciendis ratione.
           </p>
-          <button type="button" class="btn--secondary">Contact Us</button>
+          <button type="button" class="btn btn--secondary">Contact Us</button>
         </div>
       </section>
 
+      <!-- remove later  -->
+      <hr />
+      <hr />
+      <hr />
+
       <!-- newsletter section -->
-      <section>
+      <section class="newsletter-container">
+        <div class="newsletter__subscribe">
+          <h3 id="newsletter">Subscribe to our newsletter here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis voluptate officia deleniti aut omnis nulla beatae
+            labore impedit nisi. Vero nesciunt quas, architecto numquam atque
+            soluta delectus nulla iste quibusdam?
+          </p>
+          <form class="newsletter__inner-form">
+              <label for="email">Enter your email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+              />
+            
+            <button
+              type="submit"
+              id="btn-subscribe"
+              aria-labelledby="btn-subscribe newsletter"
+              class="btn btn--secondary"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- <section>
         <h4 class="section-title" id="newsletter">Newsletter</h4>
         <div class="section-layout">
           <p>
@@ -177,17 +221,17 @@
                 type="submit"
                 id="btn-subscribe"
                 aria-labelledby="btn-subscribe newsletter"
-                class="btn--primary"
+                class="btn btn--primary"
               >
                 Subscribe
               </button>
             </div>
           </form>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer section -->
-    <footer>
+    <!-- <footer>
       <div class="footer-layout">
         <div>
           <h5>Important Pages</h5>
@@ -233,6 +277,6 @@
         </div>
       </div>
       <p>&copy;2024 ecommerce shop. All rights reserved.</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
